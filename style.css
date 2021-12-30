@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+body {
+  background-color: cornflowerblue;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  align-items: center;
+}
+
+#error {
+  display: none;
+  color: rgb(255, 50, 50);
+}
+
+#alert {
+  color: yellow;
+}
+
+button {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  border: none;
+  padding: 5px 15px;
+  color: cornflowerblue;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+input {
+  border-radius: 20px;
+  border: none;
+  margin: 0 20px;
+  outline: none;
+  text-align: start;
+  color: rgba(0, 0, 0, 0.678);
+  padding: 5px 15px;
+  width: 200px;
+}
+
+span {
+  color: yellow;
+  padding-left: 10px;
+}
